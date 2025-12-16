@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html>
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Deeplink Test</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
-<body style="font-family: sans-serif; text-align: center; padding-top: 50px;">
-  <h2>Deeplink Test Page</h2>
+<body>
 
-  <a
-    href="youtube://www.youtube.com/watch?v=dQw4w9WgXcQ"
-    style="display:inline-block;
-           padding:12px 20px;
-           background:#ff0000;
-           color:white;
-           text-decoration:none;
-           border-radius:8px;">
-    Open YouTube App
-  </a>
+  <h3>Deeplink test page</h3>
 
-  <br /><br />
+  <p>
+    Geo deeplink (open map app):
+    <br>
+    <a href="geo:10.7726556,106.7219921">
+      geo:10.7726556,106.7219921
+    </a>
+  </p>
 
-  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-    Open YouTube Web
-  </a>
+  <p>
+    Google Pay deeplink:
+    <br>
+    <a href="gpay://upi/pay">
+      gpay://upi/pay
+    </a>
+  </p>
+
+  <p>
+    Note: Links only work on mobile devices with supported apps installed.
+  </p>
+
 </body>
 </html>
